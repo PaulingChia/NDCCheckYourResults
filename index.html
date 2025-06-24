@@ -109,7 +109,7 @@ console.log("找到的学生记录:", student); // 检查实际找到的数据
       }
 
       let html = `<p><strong>Nama:</strong> ${student['NAMA PELAJAR']}</p>
-                  <p><strong>Tingkatan:</strong> ${student['TINGKATAN']}</p>
+                  <p><strong>Tingkatan:</strong> ${student['KELAS']}</p>
                   <hr class="my-2">`;
 
       const subjects = [
@@ -140,8 +140,8 @@ console.log("找到的学生记录:", student); // 检查实际找到的数据
       });
 
       html += `<hr class="my-2">
-               <p><strong>Jumlah Markah:</strong> ${student['JUMLAH MARKAH']}</p>
-               <p><strong>Purata Peratus:</strong> ${student['PURATA PERATUS']}</p>
+               <p><strong>Jumlah Markah:</strong> ${student['JUM MARKAH']}</p>
+               <p><strong>Purata Peratus:</strong> ${student['PURATA %']}</p>
                <p><strong>Gred Purata:</strong> ${student['GRED PURATA']}</p>
                <p><strong>Keputusan:</strong> ${student['KEPUTUSAN']}</p>
                <p><strong>Kedudukan Dalam Kelas:</strong> ${student['KDK']}</p>
